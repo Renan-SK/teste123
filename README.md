@@ -44,3 +44,9 @@ for(let contador = 1 ; contador <= 100; contador++){
     document.write("maradona e messi " + contador + "</br>")
     contador += 1
 }# teste123
+
+for(let contador = 0; contador <= 100; contador++){
+    if (contador % 2 == 0) {
+        document.write(contador + "é par! " + "</br>")
+    }
+}
